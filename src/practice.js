@@ -20,18 +20,18 @@ const knexInstance = knex({
 
 // console.log('q2:', q2);
 
-const qry = knexInstance
-  .from('amazong_products')
-  .select('product_id', 'name', 'price', 'category')
-  .from('amazong_products')
-  .where({
-    name: 'Point of view gun'
-  })
-  .first()
-  .toQuery();
-  .then(res => {
-    console.log(res);
-  });
+// const qry = knexInstance
+//   .from('amazong_products')
+//   .select('product_id', 'name', 'price', 'category')
+//   .from('amazong_products')
+//   .where({
+//     name: 'Point of view gun'
+//   })
+//   .first()
+//   .toQuery();
+  // .then(res => {
+  //   console.log(res);
+  // });
 
 //console.log(qry);
 
